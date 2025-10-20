@@ -28,3 +28,4 @@ function pure(){
     console.log("transformed value: ",++b)
 }
 pure()
+
