@@ -85,5 +85,11 @@ function baba(){
 
 // IIFE (immediate invoked function expression)
 (function(){
-
+    console.log('heyy')
 })();
+
+// hoisting difference between declaration and expression
+cd()
+function cd(){
+    console.log("used before function declared")
+}
