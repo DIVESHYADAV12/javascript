@@ -74,3 +74,4 @@ function addtototal(num){ //pure
 (function(){
     console.log("Initialized")
 })();
+
