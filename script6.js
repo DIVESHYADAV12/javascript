@@ -1,10 +1,11 @@
 //Functions
+
 // declaration
-function hello(){ //functoion statment
+function hello() { //functoion statment
     console.log("hello divesh")
 }
 hello()
-let ab=function(){//function expression
+let ab = function () {//function expression
 }
 
 //arrow function
@@ -14,41 +15,41 @@ let fnc = () => {
 fnc()
 
 //parameters and argument
-function add(x,y){
-    console.log(x+y)
+function add(x, y) {
+    console.log(x + y)
 }
-add(34,65)
+add(34, 65)
 
 //default parameters
-function addition(v1=0,v2=0){ //default values given
-    console.log(v1+v2)
+function addition(v1 = 0, v2 = 0) { //default values given
+    console.log(v1 + v2)
 }
 addition()
 
 //rest and spread
-function abcd(...val){
+function abcd(...val) {
     console.log(val)
 }
-abcd(1,2,3,4,5,6,7,8)
+abcd(1, 2, 3, 4, 5, 6, 7, 8)
 
 //return values
-function abc(){
+function abc() {
     return "divesh"
 }
 console.log(abc())
 
 //First class Functions
-function sub(val){ // This is Higher order function
+function sub(val) { // This is Higher order function
     val()
 }
-sub(function (){
+sub(function () {
     console.log("hey")
 })
 
 //Higher order Function
 //Those function which return or accept function as their parameter is called higher order function
-function aba(){
-    return function(){
+function aba() {
+    return function () {
         console.log("hello")
     }
 }
@@ -57,39 +58,39 @@ aba()()
 // pure vs impure funbction
 //pure ->  those function which does not changes the value 
 let a = 10
-function abab(){
+function abab() {
     console.log("doesnot changes the value")
 }
 //impure -> those function which changes the value is called impure function
-function aabb(){
+function aabb() {
     a++
-    console.log("changes the value",a)
+    console.log("changes the value", a)
 }
 
 //closure ->  those function whic return a function and also uses variable of the parent function
-function bbaa(){
+function bbaa() {
     let b = 21
-    return function(){
+    return function () {
         console.log(b)
     }
 }
 
 // Lexical Scoping
 // Lexical scoping means that a function’s scope is determined by where it is written in the code, not by where it is called
-function baba(){
-      function inner(){
+function baba() {
+    function inner() {
         console.log("inner function can only be used inside")
         inner() // scope only in baba
-      }
+    }
 }
 
 // IIFE (immediate invoked function expression)
-(function(){
+(function () {
     console.log('heyy')
 })();
 
 // hoisting difference between declaration and expression
 cd()
-function cd(){
+function cd() {
     console.log("used before function declared")
 }
