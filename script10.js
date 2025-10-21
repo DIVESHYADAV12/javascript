@@ -88,4 +88,4 @@ console.log(newcountries)
 
 // Clone this array(not by refrence)
 let arr5 = [1,2,3]
-let newarr = [...arr5] 
+let newarr = [...arr5]
