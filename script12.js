@@ -28,4 +28,3 @@ const loca={
 }
 let {city,coordinate}={...loca}
 console.log(city,coordinate)
- 
