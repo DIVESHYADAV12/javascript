@@ -12,7 +12,7 @@ console.log(marks[4])
 //Array Methods
 
 // Push
-let arr = [1, 2, 3, 4, 5]
+let arr1 = [1, 2, 3, 4, 5]
 arr.push(6)
 console.log(arr)
 
@@ -95,13 +95,13 @@ console.log(x)
 
 
 // Destructuirng
-let arr = [1,2,3,4,5]
+let arr2 = [1,2,3,4,5]
 let [a,b,,d] = arr // used to get values of array in vaiables a=1,b=2,d=4
 console.log(a,b,d)
 
 // spread operator
-let arr = [1,2,3,4,5,6,7,8,9]
-let arr2 = [...arr] // used to make copy of exesisting arry do not make refrence
+let arr3 = [1,2,3,4,5,6,7,8,9]
+let arr4 = [...arr] // used to make copy of exesisting arry do not make refrence
 
 
 
