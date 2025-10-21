@@ -81,7 +81,6 @@ let obj5 ={
     eamil:"abz@gmail.com",
     [roll]:26,
 }
-
  
 
 
