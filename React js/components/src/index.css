@@ -1,0 +1,12 @@
+.card{
+  background-color: beige;
+  border: 2px solid gray;
+  padding: 10px
+}
+.nav{
+  border: 2px solid darkgray;
+  background-color: aqua;
+  width: 100vw;
+  height: 10vh;
+  padding: 10px
+}
