@@ -1,0 +1,36 @@
+*{
+  font-family: 'helvetica neue';
+}
+body{
+  background-color: #111;
+}
+.parent{
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #3cb6e6;
+  text-align: center;
+  padding:20px;
+  width: 240px;
+}
+.card img{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card button{
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+.card h3{
+  padding: 10px 20px;
+}
