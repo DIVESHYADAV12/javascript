@@ -1,0 +1,7 @@
+@import "tailwindcss";
+#Fcard::-webkit-scrollbar{
+    display: none;
+}
+#Cd::-webkit-scrollbar{
+    display: none;
+}
