@@ -4,7 +4,7 @@ import Sec2 from './sec2';
 import Sec3 from './sec3'
 const Page3 = () => {
   return (
-    <div className='bg-amber-900 h-[50vh] w-full flex'>
+    <div className='bg-amber-900 h-[60vh] w-full flex'>
       <Sec1 />
       <Sec2 />
       <Sec3 />
