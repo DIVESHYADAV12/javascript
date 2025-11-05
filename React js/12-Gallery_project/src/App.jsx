@@ -7,9 +7,14 @@ const App = () => {
     const responce = await axios.get(`https://picsum.photos/v2/list?page=2&limit=30`)
     setUserdata(responce.data)
     console.log(userdata);
-
-    let printdefault = 'No Data Available'
-
+   }
+   let printdata = 'No User Available'
+   if(userdata.length > 0){
+    printdata = userdata.map(function(elem){
+      return <div>
+        <img src={elem.download_url} alt="" />
+      </div>
+    })
    }
   return (
     <div>
@@ -17,8 +22,8 @@ const App = () => {
        className='text-2xl m-4 active:scale-95 bg-black text-white rounded px-4 py-2'
        onClick={Getdata}
        >Get data</button>
-
-       <div>{printdefault}</div>
+       <div>{printdata}</div>
+     
     </div>
   )
 }
